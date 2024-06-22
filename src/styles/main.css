@@ -69,7 +69,8 @@ nav {
   position: relative;
 }
 
-.nav-dropdown-docs:hover .nav-dropdown {
+.nav-dropdown-docs:hover .nav-dropdown,
+.nav-dropdown:hover {
   display: block;
   opacity: 1;
   visibility: visible;
