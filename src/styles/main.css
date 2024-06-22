@@ -66,7 +66,9 @@ nav {
 
 .nav-link,
 .nav-dropdown-anchor,
-.donate {
+.donate,
+.theme-changer,
+.github {
   font-size: 1.5em;
   transition: color 0.3s ease;
   margin-right: 5px;
@@ -75,7 +77,9 @@ nav {
 
 .nav-link:hover,
 .nav-dropdown-anchor:hover,
-.donate:hover {
+.donate:hover,
+.theme-changer:hover, 
+.github:hover {
   color: #e81607;
 }
 
@@ -89,6 +93,7 @@ nav {
   background-color: transparent;
   font-size: 1.6em;
   border: none;
+  cursor: pointer;
 }
   
 
