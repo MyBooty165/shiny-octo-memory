@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Avenir Next Condensed Bold';
+  src: url('/src/fonts/Avenir-Next-Condensed-Bold.ttf') format('ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  background-color: #2D3035;
+}
+
+header {
+  width: 100%;
+  background-color: #2B2D31;
+  display: flex;
+  align-items: center;
+  jusitfy-content: center;
+  height: 63px;
+  z-index: 999;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.img-logo {
+  height: 54px;
+  margin-right: 10px;
+}
+
+.logo-title {
+  font-size: 1.7em;
+  color: #fff;
+}
+
+
+  
