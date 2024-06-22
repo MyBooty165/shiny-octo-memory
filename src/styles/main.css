@@ -57,26 +57,32 @@ nav {
 .nav-link {
   color: #fff;
   text-decoration: none;
-  margin-right: 5px;
-  margin-left: 5px;
 }
 
 .nav-dropdown-anchor {
   color: #fff;
   text-decoration: none;
+}
+
+.nav-link,
+.nav-dropdown-anchor,
+.donate {
+  font-size: 1.5em;
+  transition: color 0.3s ease;
   margin-right: 5px;
   margin-left: 5px;
 }
 
-.nav-link,
-.nav-dropdown-anchor {
-  font-size: 1.5em;
-  transition: color 0.3s ease;
-}
-
 .nav-link:hover,
-.nav-dropdown-anchor:hover {
+.nav-dropdown-anchor:hover,
+.donate:hover {
   color: #e81607;
 }
+
+.donate {
+  color: #fff;
+  text-decoration: none;
+}
+  
 
   
