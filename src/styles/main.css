@@ -54,7 +54,7 @@ nav {
   position: absolute;
   width: 165px;
   top: 100%;
-  box-shadow: rgba(255, 255, 255, 0.2) 1px 1px 2px 1px;
+  box-shadow: rgba(255, 255, 255, 0.2) 2px 1px 2px 1px;
   left: 0;
   background-color: #2B2D31;
   border-radius: 6px;
@@ -63,7 +63,7 @@ nav {
   opacity: 0;
   border: none;
   visibility: hidden;
-  transform: translateY(-10px);
+  transform: translateY(-4px);
   transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
 }
 
