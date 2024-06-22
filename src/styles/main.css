@@ -152,7 +152,7 @@ form {
 }
 
 .search-enter:hover {
-  color: #4494FC;
+  color: #e81607;
 }
 
 body.dark-mode {
@@ -170,6 +170,7 @@ body.dark-mode .nav-dropdown-anchor,
 body.dark-mode .donate,
 body.dark-mode .theme-changer,
 body.dark-mode .github {
+  transition: color 0.2s ease;
   color: #000000;
 }
 
@@ -181,6 +182,7 @@ body.dark-mode .search-bar {
 body.dark-mode .search-enter {
   background-color: #F0F0F0;
   color: #000000;
+  transition: color 0.2s ease;
 }
 
 body.dark-mode .search-bar::placeholder {
@@ -188,6 +190,6 @@ body.dark-mode .search-bar::placeholder {
 }
 
 body.dark-mode .search-enter:hover {
-  color: #4494FC;
+  color: #e81607;
 }
   
