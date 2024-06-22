@@ -192,4 +192,14 @@ body.dark-mode .search-bar::placeholder {
 body.dark-mode .search-enter:hover {
   color: #e81607;
 }
+
+body.dark-mode .nav-link:hover,
+body.dark-mode .nav-dropdown-anchor:hover,
+body.dark-mode .donate:hover,
+body.dark-mode .theme-changer:hover, 
+body.dark-mode .github:hover {
+  color: #e81607;
+}
+
+
   
