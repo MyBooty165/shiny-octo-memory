@@ -85,9 +85,11 @@ nav {
 
 .nav-dropdown-link {
   color: #fff;
+  font-weight: bold;
   text-decoration: none;
   padding: 10px 20px;
   display: block;
+  font-size: 1.3em;
   transition: background-color 0.3s ease;
 }
 
