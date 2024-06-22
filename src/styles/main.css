@@ -52,6 +52,7 @@ nav {
 .nav-dropdown {
   display: none;
   position: absolute;
+  width: 165px;
   top: 100%;
   left: 0;
   background-color: #2B2D31;
