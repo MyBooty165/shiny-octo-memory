@@ -155,4 +155,39 @@ form {
   color: #4494FC;
 }
 
+body.dark-mode {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+body.dark-mode header {
+  background-color: #E0E0E0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+
+body.dark-mode .nav-link,
+body.dark-mode .nav-dropdown-anchor,
+body.dark-mode .donate,
+body.dark-mode .theme-changer,
+body.dark-mode .github {
+  color: #000000;
+}
+
+body.dark-mode .search-bar {
+  background-color: #F0F0F0;
+  color: #000000;
+}
+
+body.dark-mode .search-enter {
+  background-color: #F0F0F0;
+  color: #000000;
+}
+
+body.dark-mode .search-bar::placeholder {
+  color: #000000;
+}
+
+body.dark-mode .search-enter:hover {
+  color: #4494FC;
+}
   
