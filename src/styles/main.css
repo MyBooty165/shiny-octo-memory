@@ -44,5 +44,8 @@ nav {
   margin-right: 10px;
 }
 
+.nav-dropdown-anchor {
+  display: none;
+}
 
   
