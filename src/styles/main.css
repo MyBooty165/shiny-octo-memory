@@ -83,6 +83,13 @@ nav {
   color: #fff;
   text-decoration: none;
 }
+
+.theme-changer,
+.github {
+  background-color: transparent;
+  font-size: 1.6em;
+  border: none;
+}
   
 
   
