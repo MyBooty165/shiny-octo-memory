@@ -8,8 +8,38 @@
     <meta name="author" content="CybriaTech">
     <link rel="stylesheet" href="/src/styles/main.css">
     <title>Unblog | The Only Unblocked Documentation</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <p>WIP</p>
+    <header>
+      <nav>
+        <div class="logo">
+          <img class="img-logo" src="/static/images/logo.png">
+          <p class="logo-title">Unblog</p>
+        </div>
+        <div class="nav-dropdown-docs">
+          <a class="nav-dropdown-anchor" aria-haspopup="true" aria-expanded="false" role="button" href="/docs">Docs</a>
+          <ul class="nav-dropdown">
+            <li><a class="nav-dropdown-link" aria-haspopup="true" aria-expanded="false" role="button" href="/docs?genre=bookmarklets">Bookmarklets</a></li>
+            <li><a class="nav-dropdown-link" aria-haspopup="true" aria-expanded="false" role="button" href="/docs?genre=hardware">Hardware</a></li>
+            <li><a class="nav-dropdown-link" aria-haspopup="true" aria-expanded="false" role="button" href="/docs?genre=extensions">Extensions</a></li>
+            <li><a class="nav-dropdown-link" aria-haspopup="true" aria-expanded="false" role="button" href="/docs?genre=system+exploits">System Exploits</a></li>
+            <li><a class="nav-dropdown-link" aria-haspopup="true" aria-expanded="false" role="button" href="/docs?genre=browser+exploits">Browser Exploits</a></li>
+          </ul>
+        </div>
+        <a class="nav-link" href="/blog">Blog</a>
+        <a class="nav-link" href="/forums">Forums</a>
+        <a class="nav-link" href="/settings">Settings</a>
+        <form action="/search" method="get" id="search-nav">
+          <div id="search-bar-area">
+          <button class="search-enter"><svg width="20" height="20" class="DocSearch-Search-Icon" viewBox="0 0 20 20">
+                    <path d="M14.386 14.386l4.0877 4.0877-4.0877-4.0877c-2.9418 2.9419-7.7115 2.9419-10.6533 0-2.9419-2.9418-2.9419-7.7115 0-10.6533 2.9418-2.9419 7.7115-2.9419 10.6533 0 2.9419 2.9418 2.9419 7.7115 0 10.6533z" stroke="currentColor" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg></button>
+          <span class="search-bar-text">Search</span>
+          </div>
+        </form>
+      </nav>
+      <!-- Doing da rest soon -->
+    </header>
   </body>
 </html>
