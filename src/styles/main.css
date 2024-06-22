@@ -117,7 +117,7 @@ form {
   font-size: 1.7em;
   width: 100%;
   height: 56px;
-  border-radius: 10px 0 0 10px;
+  border-radius: 0 10px 10px 0;
   background-color: #13161F;
   border: none;
   padding-left: 10px;
