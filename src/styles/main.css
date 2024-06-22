@@ -63,7 +63,7 @@ nav {
   opacity: 0;
   border: none;
   visibility: hidden;
-  transform: translateY(-4px);
+  transform: translateY(-2px);
   transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
 }
 
