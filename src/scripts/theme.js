@@ -18,26 +18,3 @@ function theme() {
 
   body.classList.toggle('dark-mode');
 }
-
-function loadcolors() {
-  const saved = localStorage.getItem('theme') || 'light';
-  const body = document.body;
-  const logo = document.querySelector('.img-logo');
-  const themeicon = document.querySelector('.theme-changer i');
-
-  if (saved === 'dark') {
-    body.dataset.theme = 'dark';
-    logo.src = '/static/images/inverted.png';
-    themeicon.classList.remove('fa-moon');
-    themeicon.classList.add('fa-sun');
-    body.classList.add('dark-mode');
-  } else {
-    body.dataset.theme = 'light';
-    logo.src = '/static/images/icon.png';
-    themeicon.classList.remove('fa-sun');
-    themeicon.classList.add('fa-moon');
-    body.classList.remove('dark-mode');
-  }
-}
-
-document.addEventListener('DOMContentLoaded', loadcolors);
