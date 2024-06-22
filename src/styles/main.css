@@ -54,9 +54,9 @@ nav {
   position: absolute;
   width: 165px;
   top: 100%;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 2px 0px;
   left: 0;
   background-color: #2B2D31;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 10px 0;
   z-index: 1000;
