@@ -52,7 +52,6 @@ nav {
 .nav-dropdown {
   display: none;
   position: absolute;
-  width: 165px;
   top: calc(100% + 10px);
   box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
   left: 0;
