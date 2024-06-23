@@ -66,6 +66,10 @@ nav {
   transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s, top 0.3s ease;
 }
 
+.nav-dropdown.transition {
+  top: calc(100% + -11px);
+}
+
 .nav-dropdown-docs {
   position: relative;
 }
@@ -73,7 +77,6 @@ nav {
 .nav-dropdown-docs:hover .nav-dropdown,
 .nav-dropdown:hover {
   display: block;
-  top: calc(100% + -11px);
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
