@@ -52,7 +52,7 @@ nav {
 .nav-dropdown {
   display: none;
   position: absolute;
-  top: calc(100% + 10px);
+  top: calc(100% + -10px);
   box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
   left: 0;
   background-color: #2B2D31;
@@ -89,11 +89,10 @@ nav {
 
 .nav-dropdown-link {
   color: #fff;
-  font-weight: bold;
   text-decoration: none;
   padding: 10px 20px;
   display: block;
-  font-size: 1.3em;
+  font-size: 1em;
   transition: background-color 0.3s ease;
 }
 
