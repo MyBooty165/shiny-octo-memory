@@ -54,9 +54,8 @@ nav {
   position: absolute;
   width: 195px;
   top: calc(100% + 10px);
-  border: 1px solid #fff;
   left: 0;
-  background-color: #2B2D31;
+  background-color: #80848E;
   border-radius: 6px;
   padding: 10px 0;
   z-index: 1000;
@@ -245,8 +244,7 @@ body.light-mode .github:hover {
 }
 
 body.light-mode .nav-dropdown {
-  background-color: #D4D2CE;
-  border: 1px solid #000;
+  background-color: #7F7B39;
   color: #000;
 }
 
