@@ -16,5 +16,5 @@ function theme() {
     themeicon.classList.add('fa-moon');
   }
 
-  body.classList.toggle('dark-mode');
+  body.classList.toggle('light-mode');
 }
