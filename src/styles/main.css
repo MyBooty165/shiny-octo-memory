@@ -71,7 +71,8 @@ nav {
 }
 
 .nav-dropdown-docs:hover .nav-dropdown,
-.nav-dropdown:hover {
+.nav-dropdown:hover,
+.nav-dropdown:hover .nav-dropdown-anchor {
   display: block;
   opacity: 1;
   visibility: visible;
