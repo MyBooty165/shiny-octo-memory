@@ -197,60 +197,64 @@ form {
   color: #e81607;
 }
 
-body.dark-mode {
+body.light-mode {
   background-color: #FFFFFF;
   color: #000000;
 }
 
-body.dark-mode header {
+body.light-mode header {
   background-color: #E0E0E0;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
 }
 
-body.dark-mode .nav-link,
-body.dark-mode .nav-dropdown-anchor,
-body.dark-mode .donate,
-body.dark-mode .theme-changer,
-body.dark-mode .github {
+body.light-mode .nav-link,
+body.light-mode .nav-dropdown-anchor,
+body.light-mode .donate,
+body.light-mode .theme-changer,
+body.light-mode .github {
   transition: color 0.2s ease;
   color: #000000;
 }
 
-body.dark-mode .search-bar {
+body.light-mode .search-bar {
   background-color: #F0F0F0;
   color: #000000;
 }
 
-body.dark-mode .search-enter {
+body.light-mode .search-enter {
   background-color: #F0F0F0;
   color: #000000;
   transition: color 0.2s ease;
 }
 
-body.dark-mode .search-bar::placeholder {
+body.light-mode .search-bar::placeholder {
   color: #000000;
 }
 
-body.dark-mode .search-enter:hover {
+body.light-mode .search-enter:hover {
   color: #e81607;
 }
 
-body.dark-mode .nav-link:hover,
-body.dark-mode .nav-dropdown-anchor:hover,
-body.dark-mode .donate:hover,
-body.dark-mode .theme-changer:hover, 
-body.dark-mode .github:hover {
+body.light-mode .nav-link:hover,
+body.light-mode .nav-dropdown-anchor:hover,
+body.light-mode .donate:hover,
+body.light-mode .theme-changer:hover, 
+body.light-mode .github:hover {
   color: #e81607;
 }
 
-body.dark-mode .nav-dropdown {
+body.light-mode .nav-dropdown {
   background-color: #D4D2CE;
   border: 1px solid #000;
   color: #000;
 }
 
-body.dark-mode .nav-dropdown-link:hover {
+body.light-mode .nav-dropdown-link:hover {
   background-color: #C8C5BF;
+}
+
+body.light-mode .nav-dropdown-link {
+  color: #000;
 }
 
 
