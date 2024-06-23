@@ -54,14 +54,13 @@ nav {
   position: absolute;
   width: 195px;
   top: -200px;
-  box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.2);
+  box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.2);
   left: 0;
   background-color: #2B2D31;
   border-radius: 6px;
   padding: 10px 0;
   z-index: 1000;
   opacity: 0;
-  border: none;
   visibility: hidden;
   transform: translateY(-10px);
   transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s, top 0.3s ease;
