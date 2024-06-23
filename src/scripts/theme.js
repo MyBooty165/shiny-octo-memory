@@ -7,13 +7,13 @@ function theme() {
   if (currentTheme === 'light') {
     body.dataset.theme = 'dark';
     logo.src = '/static/images/inverted.png';
-    themeicon.classList.remove('fa-moon');
-    themeicon.classList.add('fa-sun');
+    themeicon.classList.remove('fa-sun');
+    themeicon.classList.add('fa-moon');
   } else {
     body.dataset.theme = 'light';
     logo.src = '/static/images/icon.png';
-    themeicon.classList.remove('fa-sun');
-    themeicon.classList.add('fa-moon');
+    themeicon.classList.remove('fa-moon');
+    themeicon.classList.add('fa-sun');
   }
 
   body.classList.toggle('light-mode');
