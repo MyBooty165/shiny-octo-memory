@@ -53,7 +53,7 @@ nav {
   display: none;
   position: absolute;
   width: 195px;
-  top: -200px;
+  top: -9999999px;
   box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.2);
   left: 0;
   background-color: #2B2D31;
