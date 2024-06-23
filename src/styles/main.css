@@ -60,9 +60,9 @@ nav {
   padding: 10px 0;
   z-index: 1000;
   transform: translateY(-10px);
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+  transition: height 0.3s ease;
+  height: 0;
+  overflow: hidden;
 }
 
 .nav-dropdown-docs {
@@ -72,10 +72,7 @@ nav {
 .nav-dropdown-docs:hover .nav-dropdown,
 .nav-dropdown:hover,
 .nav-dropdown-docs:hover .nav-dropdown-anchor {
-  display: block;
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
+  height: auto;
 }
 
 .nav-dropdown li {
