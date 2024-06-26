@@ -33,6 +33,7 @@ body {
 
 main {
   min-height: 100vh;
+  overflow-y: scroll;
 }
 
 header {
@@ -270,7 +271,20 @@ body.light-mode .nav-dropdown-link {
   color: #000;
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+}
 
+::-webkit-scrollbar-track {
+  background: #232934;
+}
 
+::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background: #373A40;
+}
 
+::-webkit-scrollbar-thumb:hover {
+  background: #2B2D31;
+}
   
