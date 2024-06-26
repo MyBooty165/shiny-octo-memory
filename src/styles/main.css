@@ -18,7 +18,16 @@
         height: 0;
     }
     to {
-        height: auto;
+        height: 100%;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        height: 100%;
+    }
+    to {
+        height: 0;
     }
 }
 
@@ -76,6 +85,14 @@ nav {
   visibility: hidden;
   transform: translateY(-10px);
   transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease, slideDown 0.4s ease-in-out;
+}
+
+.nav-dropdown.active {
+  animation: slideDown 0.5s forwards;
+}
+
+.nav-dropdown.hidden {
+  animation: slideUp 0.5s forwards;
 }
 
 .nav-dropdown-docs {
