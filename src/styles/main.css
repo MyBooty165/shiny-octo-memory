@@ -86,7 +86,7 @@ nav {
   list-style: none;
 }
 
-#nav-dropdown-link {
+.nav-dropdown-link {
   color: #fff;
   text-decoration: none;
   padding: 10px 20px;
@@ -95,7 +95,7 @@ nav {
   transition: background-color 0.3s ease;
 }
 
-#nav-dropdown-link:hover {
+.nav-dropdown-link:hover {
   background-color: #373A40;
 }
 
@@ -252,10 +252,10 @@ body.light-mode #nav-dropdown {
   color: #000;
 }
 
-body.light-mode #nav-dropdown-link:hover {
+body.light-mode .nav-dropdown-link:hover {
   background-color: #C8C5BF;
 }
 
-body.light-mode #nav-dropdown-link {
+body.light-mode .nav-dropdown-link {
   color: #000;
 }
