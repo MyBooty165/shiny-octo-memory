@@ -13,6 +13,15 @@
   unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
 }
 
+@keyframes slideDown {
+    from {
+        height: 0;
+    }
+    to {
+        height: auto;
+    }
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -66,7 +75,7 @@ nav {
   opacity: 0;
   visibility: hidden;
   transform: translateY(-10px);
-  transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease, height 0.4s ease-in-out;
+  transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease, slideDown 0.4s ease-in-out;
 }
 
 .nav-dropdown-docs {
