@@ -28,7 +28,11 @@ body {
   font-family: 'Roboto', sans-serif;
   width: 100%;
   background-color: #2D3035;
-  animation: fadeIn 3s ease-in-out;
+}
+
+main {
+  min-height: 100vh;
+  animation: fadeIn 2s ease-in-out;
 }
 
 header {
