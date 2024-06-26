@@ -53,7 +53,7 @@ nav {
   margin-right: 10px;
 }
 
-.nav-dropdown {
+#nav-dropdown {
   display: none;
   position: absolute;
   width: 195px;
@@ -73,8 +73,8 @@ nav {
   position: relative;
 }
 
-.nav-dropdown-blog:hover .nav-dropdown,
-.nav-dropdown:hover,
+.nav-dropdown-blog:hover #nav-dropdown,
+#nav-dropdown:hover,
 .nav-dropdown-blog:hover .nav-dropdown-anchor {
   display: block;
   opacity: 1;
@@ -82,11 +82,11 @@ nav {
   visibility: visible;
 }
 
-.nav-dropdown li {
+#nav-dropdown li {
   list-style: none;
 }
 
-.nav-dropdown-link {
+#nav-dropdown-link {
   color: #fff;
   text-decoration: none;
   padding: 10px 20px;
@@ -95,7 +95,7 @@ nav {
   transition: background-color 0.3s ease;
 }
 
-.nav-dropdown-link:hover {
+#nav-dropdown-link:hover {
   background-color: #373A40;
 }
 
@@ -247,15 +247,15 @@ body.light-mode .github:hover {
   color: #e81607;
 }
 
-body.light-mode .nav-dropdown {
+body.light-mode #nav-dropdown {
   background-color: #E5E5E3;
   color: #000;
 }
 
-body.light-mode .nav-dropdown-link:hover {
+body.light-mode #nav-dropdown-link:hover {
   background-color: #C8C5BF;
 }
 
-body.light-mode .nav-dropdown-link {
+body.light-mode #nav-dropdown-link {
   color: #000;
 }
