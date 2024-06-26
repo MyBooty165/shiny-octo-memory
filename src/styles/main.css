@@ -13,15 +13,6 @@
   unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
 }
 
-@keyframes slideodwn {
-    from {
-        top: 0;
-    }
-    to {
-        top: calc(100% + -5px);
-    }
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -66,6 +57,7 @@ nav {
   display: none;
   position: absolute;
   width: 195px;
+  top: calc(100% + -5px);
   left: 0;
   background-color: #1a1a1c;
   border-radius: 6px;
@@ -74,7 +66,7 @@ nav {
   opacity: 0;
   visibility: hidden;
   transform: translateY(-10px);
-  transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease, height 0.4s ease-in-out, slideodwn 0.3s ease-in-out;
+  transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease, height 0.4s ease-in-out;
 }
 
 .nav-dropdown-docs {
