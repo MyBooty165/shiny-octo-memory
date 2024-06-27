@@ -70,7 +70,7 @@ nav {
   position: absolute;
   width: 195px;
   top: calc(100% + -5px);
-  animation: animatetop 0.4s /* Thx W3 */
+  animation: animatetop 0.4s; /* Thx W3 */
   left: 0;
   background-color: #1a1a1c;
   border-radius: 6px;
