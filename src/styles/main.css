@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Avenir Next Condensed Bold';
-  src: url('/src/fonts/Avenir-Next-Condensed-Bold.ttf') format('ttf');
+  src: url('/src/fonts/Avenir-Next-Condensed-Bold.ttf') format('truetype');
   font-weight: bold;
 }
 
@@ -53,7 +53,7 @@ nav {
   margin-right: 10px;
 }
 
-#nav-dropdown {
+.nav-dropdown {
   display: none;
   position: absolute;
   width: 195px;
@@ -73,8 +73,8 @@ nav {
   position: relative;
 }
 
-.nav-dropdown-blog:hover #nav-dropdown,
-#nav-dropdown:hover,
+.nav-dropdown-blog:hover .nav-dropdown,
+.nav-dropdown:hover,
 .nav-dropdown-blog:hover .nav-dropdown-anchor {
   display: block;
   opacity: 1;
@@ -82,7 +82,7 @@ nav {
   visibility: visible;
 }
 
-#nav-dropdown li {
+.nav-dropdown li {
   list-style: none;
 }
 
@@ -247,7 +247,7 @@ body.light-mode .github:hover {
   color: #e81607;
 }
 
-body.light-mode #nav-dropdown {
+body.light-mode .nav-dropdown {
   background-color: #E5E5E3;
   color: #000;
 }
