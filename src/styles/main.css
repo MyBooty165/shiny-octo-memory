@@ -72,7 +72,7 @@ nav {
   top: calc(100% + -5px);
   left: 0;
   background-color: #1a1a1c;
-	animation: animatetop 0.4s
+  animation: animatetop 0.4s
   border-radius: 6px;
   padding: 10px 0;
   z-index: 1000;
