@@ -15,12 +15,12 @@
 
 @keyframes animatetop { /* Thx W3 again */
 	from {
-		top: -2px;
+		top: 3px;
 		opacity: 0;
 	}
 
 	to {
-		top: -9px;
+		top: -15px;
 		opacity: 1;
 	}
 }
@@ -69,7 +69,7 @@ nav {
   display: none;
   position: absolute;
   width: 195px;
-  animation: animatetop 0.4s; /* Thx W3 */
+  animation: animatetop 0.2s; /* Thx W3 */
   left: 0;
   background-color: #1a1a1c;
   border-radius: 6px;
@@ -77,7 +77,7 @@ nav {
   z-index: 1000;
   opacity: 0;
   visibility: hidden;
-  transform: translateY(-10px);
+  transform: translateY(-100%) translateY(-10px);
   transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
 }
 
@@ -88,6 +88,7 @@ nav {
 .nav-dropdown-blog:hover .nav-dropdown,
 .nav-dropdown:hover,
 .nav-dropdown-blog:hover .nav-dropdown-anchor {
+  transform: translateY(0);
   display: block;
   opacity: 1;
   visibility: visible;
