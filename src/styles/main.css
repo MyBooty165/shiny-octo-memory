@@ -21,7 +21,7 @@
 
 	to {
 		top: calc(100% + -7px);
-		transform: translateY(-10px);
+		transform: translateY(-12px);
 		opacity: 1;
 	}
 }
@@ -78,7 +78,6 @@ nav {
   z-index: 1000;
   opacity: 0;
   visibility: hidden;
-  transform: translateY(-10px);
   transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
 }
 
