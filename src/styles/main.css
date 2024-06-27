@@ -17,10 +17,12 @@
 	from {
 		top: 0px;
 		opacity: 0;
+		transform: translateY(0);
 	}
 
 	to {
 		top: -5px;
+		transform: translateY(-10px);
 		opacity: 1;
 	}
 }
@@ -77,7 +79,7 @@ nav {
   z-index: 1000;
   opacity: 0;
   visibility: hidden;
-  transform: translateY(-100%) translateY(-10px);
+  transform: translateY(-10px);
   transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
 }
 
@@ -88,7 +90,6 @@ nav {
 .nav-dropdown-blog:hover .nav-dropdown,
 .nav-dropdown:hover,
 .nav-dropdown-blog:hover .nav-dropdown-anchor {
-  transform: translateY(0);
   display: block;
   opacity: 1;
   visibility: visible;
