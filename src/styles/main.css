@@ -13,6 +13,18 @@
   unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
 }
 
+@keyframes animatetop { /* from W3c */
+	from {
+		top: -300px;
+		opacity: 0
+	}
+
+	to {
+		top: 0;
+		opacity: 1
+	}
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -60,6 +72,7 @@ nav {
   top: calc(100% + -5px);
   left: 0;
   background-color: #1a1a1c;
+	animation: animatetop 0.4s
   border-radius: 6px;
   padding: 10px 0;
   z-index: 1000;
