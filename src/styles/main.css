@@ -20,7 +20,7 @@
 	}
 
 	to {
-		top: -5px;
+		top: calc(100% + -5px);
 		transform: translateY(-10px);
 		opacity: 1;
 	}
