@@ -69,7 +69,6 @@ nav {
   display: none;
   position: absolute;
   width: 195px;
-  animation: animatetop 0.2s ease-out; /* Thx W3 */
   left: 0;
   background-color: #1a1a1c;
   border-radius: 6px;
@@ -77,8 +76,12 @@ nav {
   z-index: 1000;
   opacity: 0;
   visibility: hidden;
-  transform: translateY(-15px);
+  transform: translateY(-200px);
   transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+}
+
+.nav-dropdown:active {
+  animation: animatetop 0.2s ease-out; /* Thx W3 */
 }
 
 .nav-dropdown-blog {
