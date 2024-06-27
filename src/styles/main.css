@@ -20,8 +20,7 @@
 	}
 
 	to {
-		top: calc(100% + -7px);
-		transform: translateY(-12px);
+		top: calc(100% + -2px);
 		opacity: 1;
 	}
 }
