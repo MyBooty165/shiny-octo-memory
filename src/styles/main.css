@@ -15,7 +15,7 @@
 
 @keyframes animatetop { /* Thx W3 again */
 	from {
-		top: 4px;
+		top: 8px;
 		opacity: 0;
 	}
 
