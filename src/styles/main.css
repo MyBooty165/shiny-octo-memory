@@ -15,13 +15,12 @@
 
 @keyframes animatetop { /* Thx W3 again */
 	from {
-		top: 4px;
-		transform: translateY(0);
+		top: 2px;
 		opacity: 0;
 	}
 
 	to {
-		top: 7px;
+		top: calc(100% + 5px);
 		opacity: 1;
 	}
 }
