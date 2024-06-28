@@ -20,7 +20,7 @@
 	}
 
 	to {
-		top: calc(100% + 5px);
+		top: calc(100% + 3px);
 		opacity: 1;
 	}
 }
@@ -75,7 +75,7 @@ nav {
   padding: 10px 0;
   z-index: 1000;
   opacity: 0;
-  transform: translateY(-6px);
+  transform: translateY(-4px);
   visibility: hidden;
   animation: animatetop 0.2s ease-out; /* Thx W3 */
   transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
