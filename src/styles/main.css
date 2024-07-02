@@ -99,6 +99,7 @@ nav {
 
 .nav-dropdown-link {
   color: #fff;
+  border-radius: 9px;
   text-decoration: none;
   padding: 10px 20px;
   display: block;
@@ -108,7 +109,6 @@ nav {
 
 .nav-dropdown-link:hover {
   background-color: #373A40;
-  border-radius: 8px;
 }
 
 .nav-link {
