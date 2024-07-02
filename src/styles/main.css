@@ -15,12 +15,10 @@
 
 @keyframes animatetop { /* Thx W3 again */
 	from {
-		top: 2px;
 		opacity: 0;
 	}
 
 	to {
-		top: -3px;
 		opacity: 1;
 	}
 }
