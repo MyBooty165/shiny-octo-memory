@@ -16,6 +16,7 @@
 @keyframes animatetop { /* Thx W3 again */
 	from {
 		opacity: 0;
+		top: 0px;
 	}
 
 	to {
@@ -74,7 +75,6 @@ nav {
   padding: 10px 0;
   z-index: 1000;
   opacity: 0;
-  top: 0px;
   transform: translateY(-13px);
   visibility: hidden;
   animation: animatetop 0.2s ease-out; /* Thx W3 */
