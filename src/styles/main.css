@@ -73,8 +73,8 @@ nav {
   padding: 10px 0;
   z-index: 1000;
   opacity: 0;
-  top: calc(100% + -7px);
-  transform: translateY(-18px);
+  top: calc(100% + -9px);
+  transform: translateY(-13px);
   visibility: hidden;
   animation: animatetop 0.2s ease-out; /* Thx W3 */
   transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
