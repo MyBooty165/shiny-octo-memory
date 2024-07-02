@@ -88,7 +88,7 @@ nav {
 .nav-dropdown-blog:hover .nav-dropdown,
 .nav-dropdown:hover,
 .nav-dropdown-blog:hover .nav-dropdown-anchor,
-.nav-dropdown-anchor-outer:hover {
+.nav-dropdown:hover .nav-dropdown-anchor-outer {
   display: block;
   opacity: 1;
   visibility: visible;
