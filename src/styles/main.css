@@ -81,6 +81,15 @@ nav {
   transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
 }
 
+.nav-dropdown-anchor-outer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
 .nav-dropdown-blog {
   position: relative;
 }
@@ -88,7 +97,8 @@ nav {
 .nav-dropdown-blog:hover .nav-dropdown,
 .nav-dropdown:hover,
 .nav-dropdown-blog:hover .nav-dropdown-anchor,
-.nav-dropdown:hover .nav-dropdown-anchor-outer {
+.nav-dropdown:hover .nav-dropdown-anchor-outer,
+.nav-dropdown-blog:hover .nav-dropdown-anchor-outer {
   display: block;
   opacity: 1;
   visibility: visible;
